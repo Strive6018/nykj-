@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc75945d-26c6-4a6b-be1f-751193196853" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/lenovo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ffcms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Common/Admin/function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Common/Api/Consts(1).php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Common/Api/Consts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Common/Api/route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Common/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Conf/Home/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Conf/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lang/zh-cn/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/AdminAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/AdsAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/CacheAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/CardAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/CjAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/ConfigAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/CreateAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/DataAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/EmailAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/ForumAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/IndexAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/InstallAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/LinkAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/ListAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/LoginAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/NavAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/NewsAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/OrdersAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/PicAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/PlayerAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/RecordAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/SlideAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/SpecialAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/TagAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/ToolAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/TplAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/UploadAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/UserAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Admin/VodAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/AllAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumListsAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumListsAction.classCopy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/BaAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/BannerAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/CheckinAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/CoinBalanceAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/CoinListAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/DuyvipAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/Exception/ApiExceptionAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/FavoritesAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/FavoritesDeleteAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/FavoritesListAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/FavoritesStatusAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/HomeAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/InputAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/Interface/ApiImplement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/InvitedListAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/ModifyPasswordAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/RecordAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/RedeemListAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/SearchAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/SuggestAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/TaskListAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/Traits/ApiModelAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/Traits/IsCheckApiTokenAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/Traits/Sms.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/TypeListAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/UserAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/UserNameAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/UserRegisterAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/VerificationCodeAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/VideoAlbumAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/VideoDeleteAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/VideoDetailAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/VideoListAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Api/VideoTypeListAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/ApiAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/BaseAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/EmptyAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/AjaxAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/ForumAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/GoldAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/HitsAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/ImagesAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/IndexAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/MapAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/NewsAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/NotifyAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/PaymentAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/RecordAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/ScenarioAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/SearchAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/SpecialAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/UpdownAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/UserAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/VodAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Home/WeixinAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/HomeAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/Plus/PostAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Action/VcodeAction.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/AdminModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/AdsModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/AlbumModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/AlipayModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/CardModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/CardViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/CionDetailModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/CjModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/CodepayModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/CollectModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/EmailModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/ForumModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/ForumViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/ImgModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/InvitedListModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/LinkModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/ListModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/NavModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/NewsModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/NewsViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/OrdersModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/OrdersViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/PayRjModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/PaypalModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/PlayerModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/RecordModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/RecordViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/ScoreModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/ScoreViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/SlideModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/SpecialModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/SystemSetupModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/TagModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/TagnewsViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/TagspecialViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/TagvodViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/UserModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/UserSignModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/UserViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/VodModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/VodViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lib/Model/WxpayModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Common/alias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Common/compat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Common/convention.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Common/core.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Common/debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Common/defines.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Common/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Common/paths.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Common/runtime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lang/zh-cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/ORG/Io/Dir.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/ORG/Net/UploadFile.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/ORG/Util/Image.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/ORG/Util/String.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Action.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/App.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Log.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Model.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Model/AdvModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Model/RelationModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Model/ViewModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Think.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/View.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Db/Db.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Db/Driver/DbMysql.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Db/Driver/DbMysqli.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Exception/ThinkException.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Template/TagLib.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Template/TagLib/TagLibCx.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Template/TagLib/TagLibHtml.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Template/ThinkTemplate.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Behavior.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Cache.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Cache/CacheFile.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Cache/CacheMemcache.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Cookie.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Debug.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Dispatcher.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/HtmlCache.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Session.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Template/TemplateSmarty.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Template/TemplateThink.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Widget.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Cli/Action.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Cli/App.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Cli/alias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Lite/Action.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Lite/App.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Lite/Db.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Lite/Dispatcher.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Lite/Model.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Lite/ThinkTemplateCompiler.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Lite/ThinkTemplateLite.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Lite/alias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Thin/Action.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Thin/App.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Thin/Db.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Thin/Model.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Thin/alias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/cli.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/lite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Mode/thin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/ThinkPHP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Tpl/AutoIndex.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Tpl/Autoindex/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Tpl/Autoindex/pointer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Tpl/BuildModeIndex.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Tpl/DefaultIndex.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Tpl/PageTrace.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Tpl/ThinkCheckIndex.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Tpl/ThinkException.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Email/class.phpmailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Email/class.smtp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Ftp/Ftp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/FileVoiceSender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/SmsMobileStatusPuller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/SmsMultiSender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/SmsSenderUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/SmsSingleSender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/SmsStatusPuller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/SmsVoicePromptSender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/SmsVoiceVerifyCodeSender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/TtsVoiceSender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/VoiceFileUploader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/ThinkPHP/Vendor/Sms/Tencent/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/bootstrap/3.3.5/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/bootstrap/3.3.5/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/adapters/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/codesnippet/dialogs/codesnippet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/codesnippet/lib/highlight/highlight.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/codesnippet/lib/highlight/styles/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/dcvideo/images/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/dcvideo/images/video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/dcvideo/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/dialog/dialogDefinition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/icons_hidpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/image/dialogs/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/image/images/noimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/link/dialogs/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/link/dialogs/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/link/images/anchor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/link/images/hidpi/anchor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/pagebreak/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/pastefromword/filter/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_address.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_blockquote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_div.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_h1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_h2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_h3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_h4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_h5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_h6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/showblocks/images/block_pre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/es-mx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/specialchar/dialogs/specialchar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/plugins/table/dialogs/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/dialog_ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/dialog_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/dialog_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/editor_gecko.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/editor_ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/editor_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/editor_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/icons_hidpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/images/hidpi/lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/images/hidpi/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/images/hidpi/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/images/lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/images/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/images/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/images/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/skins/moono-lisa/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ckeditor4.7.3/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/admin-left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/admin-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/admin-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/admin-top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/install.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/jquery.easy-ticker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/jquery.jqmodal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/jquery.raty.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/jquery.raty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/css/s2t.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/data/pinyin.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/404/4044E.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/404/404B6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/404/404bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/css/bass.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/css/news.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/css/play.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/css/share.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/css/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/Special_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/action_pop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/alp60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/comment_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/dlbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/huo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/ico_5d07878.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/ico_cf09f0c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/less.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/playa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/player-ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/playerico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/playerxx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/playfont.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/playicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/playjt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/rank-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/rank_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/rank_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/vip1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/vip2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/vip3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/vip4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/vip5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/vip6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/vipicons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/xiazai1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/xiazai2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/ykico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/yug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/images/zh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/js/jQuery-image-upload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/js/jquery.SuperSlide - 副本.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/js/jquery.SuperSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/js/jquery.autocomplete.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/js/jquery.lazyload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/js/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/js/xunlei.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/hybg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/jQuery-image-upload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/upload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/usnv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/yh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/yx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms/user/yz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/css/aui-iconfont.2.0.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/css/aui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/baofeng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/cntv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/dm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/dm_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/dy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/dy_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/fun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/iqiyi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/kankan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/letv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/m1905.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/mgtv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/pps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/pptv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/sohu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/tudou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/tv_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/up_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/wasu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/youku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/zy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/ico/zy_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/blank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/dui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/ffcms.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/fxa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/gb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/hyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/i_3YQLoSU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/playbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/playerxx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/sca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/theme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/usre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/xx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/xza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/images/yjt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/js/aui-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/js/ffcms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/js/jQuery-image-upload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/js/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/js/upload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/ffcms_m/js/wap_appdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/html5shiv/3.7.2/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/bg2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/body_title_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/body_title_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/body_title_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/botbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/bt_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/button_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/check_no.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/check_yes.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/continu0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/continu1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/ct.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/edit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/leftbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/login.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/next.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/star0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/star1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/tbtitle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/title_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/top_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/top_bg_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/top_bg_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/top_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/admin/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/face/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/css.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/dir.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/gif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/htm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/html.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/jpg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/js.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/other.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/file/php.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/grey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/no.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/qrcode/wap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/qrcode/weixin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/images/water.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/jquery.devbridge-autocomplete/1.4.7/jquery.autocomplete.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/jquery.flickity/2.1.1/flickity.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/jquery.flickity/2.1.1/flickity.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/jquery.lazyload/1.9.7/jquery.lazyload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/jquery/1.11.3/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/jquery/jquery.insertsome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/js/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/js/jump.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/js/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/js/system3.8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/jump/jumpurl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/135m3u8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/135zy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/ckm3u8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/ckplayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/cntv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/ffhd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/iframe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/iqiyi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/jjhd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/jjvod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/jsm3u8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/jsyun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/kankan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/kkm3u8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/kkyun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/kuyun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/letv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/m1905.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/m3u8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/maoyanm3u8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/maoyanzy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/mbckm3u8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/mbyun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/mgtv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/mp4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/pptv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/qq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/sohu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/tudou.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/xfplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/xigua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/xunlei.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/player/youku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/respond/1.4.2/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/admin_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/admin_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/ads_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/ads_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cache_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/card_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_list_forum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_list_news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_list_scenario.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_list_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_list_vod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_setbind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_show_news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_show_vod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_time_wait.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/cj_time_win.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_cache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_caiji.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_rewrite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/config_weixin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/data_repair.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/data_replace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/data_restore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/data_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/data_sql.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/forum_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/forum_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/html_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/install.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/link_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/link_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/list_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/list_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/nav_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/nav_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/news_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/news_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/orders_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/pic_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/pic_tool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/player_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/plus_bg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/plus_createhtml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/plus_dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/plus_showpic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/record_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/right.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/slide_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/slide_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/special_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/special_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/tag_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/tag_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/tool_batch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/tool_name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/tpl_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/tpl_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/upload_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/user_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/user_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/vod_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/system/vod_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Conf/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_cj/bind.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_feifeicms/player.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/Img.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/Link.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/List.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/Nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/News.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/Orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/Record.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/Slide.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/Special.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/Tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Data/_fields/Vod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Install/install.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Install/install.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Js/300_250.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Js/300_250m.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Js/300_300.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Js/60_m.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Js/90_m.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Js/960_90.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/~app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/~runtime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Base/forum_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Base/forum_page.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Base/forum_post.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Base/vod_item_img_left.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Base/vod_playurl.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Base/vod_playurl_down.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Base/vod_record_set.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Base/vod_scenario.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Base/vod_svip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Base/vod_vipdj.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/index_dm.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/index_dy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/index_new.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/index_rb.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/index_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/index_tv.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/index_zt.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/index_zy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/yk_img.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/yk_img_1.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Block/yk_img_2.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/forum_ajax_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/forum_ajax_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/forum_ajax_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/forum_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/forum_page.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/forum_post.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/header_meta.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/nav_default.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/search_default.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/search_group.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/search_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/search_record.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/search_record_sm.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/search_select.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/search_user.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/user_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/user_login_ajax.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_actor.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_actor_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_area.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_area_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_content.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_continu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_continu_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_director.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_player.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_player_vip_ispay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_player_vip_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_player_vip_price.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_player_vip_short.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_player_vip_trysee.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_playurl.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_playurl_down.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_playurl_line.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_playurl_line_dropdown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_playurl_line_tab.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_playurl_next.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_playurl_yugao.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_playurl_yugao_dropdown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_playurl_yugao_tab.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_record.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_record_get.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_record_set.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_scenario.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_score.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_share.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_type_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/BlockBase/vod_updown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Forum/ajax.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Forum/category_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/ajax_404.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/ajax_top.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/forum.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/header.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/heanvd.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/jsq.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/vod_continn.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/vod_contino.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/vod_continu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/vod_playurl.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/vod_playurl_line.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/vod_qxd.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Home/vod_yyb.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Map/360.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Map/baidu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Map/bing.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Map/google.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Map/rss.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Map/sogou.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/ajax_404.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/ajax_top.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/forum.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/header.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/heanvd.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/jsq.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/vod_continn.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/vod_contino.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/vod_continu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/vod_playurl.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/vod_playurl_line.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/vod_qxd.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/Home/vod_yyb.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/News/type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Payment/card.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Payment/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Payment/wxpay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Record/vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Special/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Special/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/ajax_email.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/ajax_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/ajax_repwd.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/ajax_upvip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/center_buy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/center_forums.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/center_history.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/center_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/center_likes.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/center_nav.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/center_orders.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/footer.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/forget.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/header.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/inc_item_record.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/User/register.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/channel_dm.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/channel_ds.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/channel_dy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/channel_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/channel_zy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/detail_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/play.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/play_vip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default/Vod/type_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Base/vod_player_vip_ispay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Base/vod_player_vip_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Base/vod_player_vip_price.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Base/vod_player_vip_short.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Base/vod_player_vip_trysee.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/forum_ajax_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/forum_ajax_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/forum_ajax_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/forum_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/forum_page.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/forum_post.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/header_meta.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_actor_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_area.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_area_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_content.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_continu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_continu_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_player.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_player_vip_ispay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_player_vip_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_player_vip_price.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_player_vip_short.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_player_vip_trysee.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_playurl.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_playurl_down.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_playurl_line.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_playurl_line_dropdown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_playurl_next.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_playurl_yugao.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_playurl_yugao_dropdown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_record.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_record_get.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_record_set.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_scenario.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_score.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_share.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_type_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockBase/vod_updown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/forum_category_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/forum_category_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/forum_category_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/forum_category_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/forum_detail_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/forum_detail_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/forum_detail_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/forum_detail_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/forum_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/news_channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/news_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/news_list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/news_search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/news_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/news_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/scenario_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/scenario_detail_pid.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/scenario_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/special_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/special_list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/vod_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/vod_list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/vod_play.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/vod_search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/vod_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockSeo/vod_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/footer.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/header.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/news_item_hot.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/news_item_medial.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/special_item_img.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/vod_channel_types.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/vod_inc_info.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/vod_item_img.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/vod_item_img_actor.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/vod_item_img_hot.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/vod_item_img_series.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/BlockTheme/vod_item_img_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Forum/ajax.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Forum/category_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Forum/category_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Forum/category_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Forum/category_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Forum/detail_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Forum/detail_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Forum/detail_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Forum/detail_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Forum/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Home/ajax_search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Home/ajax_site_hot.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Home/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Images/v_playBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Map/360.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Map/baidu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Map/bing.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Map/google.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Map/rss.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Map/sogou.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/News/channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/News/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/News/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/News/search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/News/tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/News/type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Payment/card.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Payment/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Payment/wxpay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Record/vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Scenario/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Scenario/detail_pid.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Scenario/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Slide/channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Slide/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Special/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Special/detail_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Special/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/ajax_email.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/ajax_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/ajax_pay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/ajax_repwd.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/ajax_upvip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/center_buy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/center_collect.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/center_do.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/center_forum.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/center_history.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/center_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/center_likes.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/center_nav.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/center_orders.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/center_wish.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/footer.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/forget.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/header.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/inc_item_record.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/User/register.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/channel_dm.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/channel_ds.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/channel_dy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/channel_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/channel_zy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/detail_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/list_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/play.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/play_vip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/rss.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/Vod/type_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/system.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/default_m/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/forum_ajax_forum.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/forum_ajax_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/forum_ajax_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/forum_ajax_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/forum_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/forum_page.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/forum_post.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/header_meta.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/header_meta1.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/news_next.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/news_page.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/news_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/news_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/user_center_nav.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_actor.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_actor_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_area.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_area_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_cid.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_content.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_continu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_continu_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_director.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_director_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_player.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_player_vip_ispay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_player_vip_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_player_vip_price.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_player_vip_short.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_player_vip_trysee.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_playurl.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_playurl_next.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_playurl_share.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_record.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_record_get.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_record_set.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_score.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_share.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_type_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockBase/vod_updown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/ajax_search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/forum_category_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/forum_category_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/forum_category_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/forum_category_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/forum_detail_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/forum_detail_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/forum_detail_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/forum_detail_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/forum_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/news_channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/news_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/news_list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/news_search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/news_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/news_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/scenario_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/scenario_detail_pid.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/scenario_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/special_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/special_list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/user_center_buy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/user_center_forum.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/user_center_history.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/user_center_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/user_center_orders.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/user_forget.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/user_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/user_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/user_register.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/vod_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/vod_list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/vod_play.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/vod_search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/vod_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockSeo/vod_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/footer.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/forum_card_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/header.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/news_card_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/record_card_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/scenario_card_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/special_card_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/vod_card_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/vod_channel_dl_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/vod_channel_extend.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/vod_detail_info.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/vod_detail_like.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/vod_detail_sp_like.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/vod_playurl_line.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/vod_playurl_yugao.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/BlockTheme/vod_type_dl_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Forum/ajax.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Forum/category_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Forum/category_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Forum/category_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Forum/category_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Forum/detail_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Forum/detail_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Forum/detail_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Forum/detail_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Forum/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Home/ajax_search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Home/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Map/360.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Map/baidu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Map/bing.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Map/google.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Map/rss.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Map/sogou.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/News/channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/News/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/News/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/News/search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/News/tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/News/type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Payment/card.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Payment/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Payment/wxpay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Record/vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Scenario/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Scenario/detail_pid.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Scenario/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Slide/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Special/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Special/detail_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Special/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/ajax_email.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/ajax_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/ajax_repwd.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/ajax_upvip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/center_buy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/center_forum.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/center_history.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/center_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/center_orders.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/forget.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/User/register.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/channel_dm.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/channel_ds.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/channel_dy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/channel_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/channel_zy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/detail_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/list_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/play.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/play_vip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/rss.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/Vod/type_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/system.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms02/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Base/vod_player_vip_ispay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Base/vod_player_vip_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Base/vod_player_vip_price.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Base/vod_player_vip_short.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Base/vod_player_vip_trysee.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/forum_ajax_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/forum_ajax_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/forum_ajax_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/forum_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/forum_page.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/forum_post.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/header_meta.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_actor_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_area.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_area_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_content.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_continu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_continu_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_player.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_player_vip_ispay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_player_vip_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_player_vip_price.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_player_vip_short.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_player_vip_trysee.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_playurl.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_playurl_down.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_playurl_line_tab.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_playurl_next.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_playurl_yugao_tab.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_record.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_record_get.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_record_set.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_scenario.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_score.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_share.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_type_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockBase/vod_updown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/forum_category_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/forum_category_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/forum_category_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/forum_detail_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/forum_detail_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/forum_detail_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/forum_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/news_channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/news_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/news_list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/news_search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/news_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/news_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/scenario_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/scenario_detail_pid.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/scenario_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/special_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/special_list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/vod_detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/vod_down.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/vod_list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/vod_play.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/vod_search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/vod_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/vod_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockSeo/vod_yugao.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/footer.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/header.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/index_item_img_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/index_item_slide.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/news_item_hot.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/news_item_medial.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_channel_gold.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_channel_hot.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_channel_img.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_item_forum.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_item_img.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_item_img_actor.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_item_img_director.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_item_img_hot.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_item_img_series.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_item_img_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_item_scenario.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/BlockTheme/vod_playurl.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Forum/ajax.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Forum/category_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Forum/category_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Forum/category_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Forum/category_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Forum/detail_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Forum/detail_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Forum/detail_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Forum/detail_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Forum/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Home/ajax_search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Home/ajax_site_hot.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Home/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Images/ico_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Images/logo-mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Images/v_playBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Map/360.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Map/baidu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Map/bing.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Map/google.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Map/rss.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Map/sogou.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/News/channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/News/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/News/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/News/search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/News/tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/News/type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Payment/card.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Payment/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Payment/wxpay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Record/vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Scenario/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Scenario/detail_pid.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Scenario/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Slide/channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Slide/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Special/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Special/detail_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Special/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/ajax_email.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/ajax_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/ajax_pay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/ajax_repwd.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/ajax_upvip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/center_buy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/center_collect.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/center_do.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/center_forum.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/center_history.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/center_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/center_likes.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/center_nav.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/center_orders.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/center_wish.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/footer.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/forget.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/header.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/inc_item_record.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/User/register.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/channel.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/channel_dm.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/channel_ds.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/channel_dy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/channel_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/channel_zy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/detail_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/down.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/list_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/play.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/play_vip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/type_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/Vod/yugao.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/system.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms03/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Base/forum_ajax_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Base/forum_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Base/forum_page.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Base/forum_post.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Base/vod_player.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Base/vod_playurl.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Base/vod_record_get.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Base/vod_record_set.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Base/vod_svip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/forum_ajax_news.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/forum_ajax_special.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/forum_ajax_vod.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/forum_item.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/forum_page.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/forum_post.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/header_meta.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/navbar_default_footer.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_actor_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_area.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_area_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_content.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_continu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_continu_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_player.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_player_vip_ispay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_player_vip_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_player_vip_price.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_player_vip_short.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_player_vip_trysee.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_playurl.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_playurl_down.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_playurl_line.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_playurl_line_dropdown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_playurl_next.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_playurl_yugao.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_playurl_yugao_dropdown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_record.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_record_get.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_record_set.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_scenario.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_score.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_share.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_tags.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_type_foreach.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/BlockBase/vod_updown.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Forum/ajax.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Forum/category_guestbook.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/ajax_404.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/footer.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/header.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/header_meta.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/jsq.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/vod_continn.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/vod_continu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/vod_continuu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/vod_home.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/vod_homex.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Home/vod_yyb.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/News/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/News/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Payment/card.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Payment/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Payment/wxpay.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Special/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Special/list.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/ajax_email.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/ajax_login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/ajax_repwd.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/ajax_upvip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_accunc.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_accunt.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_buy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_collect.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_forum.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_history.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_likes.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_nav.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_orders.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/center_wish.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/footer.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/forget.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/header.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/inc_item_record.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/login.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/User/register.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/channel_dm.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/channel_ds.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/channel_dy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/channel_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/channel_zy.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/detail.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/detail_sp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/play.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/play_vip.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/search.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tpl/ffcms04_m/Vod/type.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/slide/2019-09-12/5d79835d201ab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/slide/2019-09-12/5d79835d83953.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/slide/2019-09-12/5d7983727687b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/slide/2019-09-12/5d79837313b90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/special/2019-09-12/5d793b0114f65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/special/2019-09-12/5d793b0998767.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/special/2019-09-12/5d793c6568a9f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/special/2019-09-12/5d793c66039ea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/baofeng.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/ckplayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/ckplayer.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/fun.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/language.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/letv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/m3u8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/m3u8.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/mgtv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/pptv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/qiyi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/qq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/feixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/kaixin001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/msn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/qq2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/qzone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/rr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/sohu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/share/tianya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/sohu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/style.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/tudou.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/wasu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckplayer/youku.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/install.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notify.alipay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notify.codepay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notify.paypal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notify.payrj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notify.wxpay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安装说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序使用协议.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1709383315">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="84" />
+          <entry key="php" value="11681" />
+          <entry key="sql" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="11681" />
+          <entry key="PLAIN_TEXT" value="84" />
+          <entry key="SQL" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="htaccess" value="1" />
+          <entry key="ico" value="1" />
+          <entry key="php" value="386" />
+          <entry key="sql" value="3" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="PHP" value="386" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SQL" value="3" />
+          <entry key="htaccess" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/BannerAction.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/Conf/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Dispatcher.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="200" column="38" selection-start-line="200" selection-start-column="27" selection-end-line="200" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Admin/ConfigAction.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumListsAction.classCopy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumListsAction.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Runtime/Conf/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="127" column="29" lean-forward="true" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/ApiAction.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/AllAction.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5194">
+              <caret line="6" column="60" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Mode/Cli/Action.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ip</find>
+      <find>缓存</find>
+      <find>客户端</find>
+      <find>加密</find>
+      <find>生成</find>
+      <find>validate_user_register</find>
+      <find>ff_select_count</find>
+      <find>model</find>
+      <find>ApiTokenRoute</find>
+      <find>Consts.php</find>
+      <find>VodStutasNormalCode</find>
+      <find>field</find>
+      <find>用户签到</find>
+      <find>金币明细</find>
+      <find>兑换VIP接口</find>
+      <find>收藏视频</find>
+      <find>取消收藏</find>
+      <find>推荐</find>
+      <find>分类</find>
+      <find>用户中心</find>
+      <find>获取视频详情数据</find>
+      <find>视频详情</find>
+      <find>删除播放</find>
+      <find>视频分类</find>
+      <find>发现</find>
+      <find>$this-&gt;assign</find>
+      <find>verificationcode</find>
+      <find>/404</find>
+      <find>路由</find>
+      <find>route</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$this-&gt;redirect</replace>
+      <replace />
+      <replace>抱歉，您访问的页面不存在 - 喵哣视频</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>G:\PHPCUSTOM\wwwroot\ffcms\Lib\Lib\Action</dir>
+      <dir>G:\PHPCUSTOM\wwwroot\ffcms\Lib\Lib</dir>
+      <dir>G:\PHPCUSTOM\wwwroot\ffcms\Lib</dir>
+      <dir>G:\PHPCUSTOM\wwwroot\ffcms</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/VerificationCode.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Common/common.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/UserRegisterAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Common/Consts.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/Traits/Sms.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Model/UserModel.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Common/Api/Consts.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/CoinBalanceAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Model/InvitedListModel.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Model/UserSignModel.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/CoinListAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Model/CionDetailModel.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/DuyvipAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/FavoritesAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Model/CollectModel.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/FavoritesDeleteAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/FavoritesListAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/FavoritesStatusAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/HomeAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/InvitedListAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/ModifyPasswordAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/RecordAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/RedeemListAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/SuggestAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/TaskListAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/TypeListAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/UserAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/UserNameAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/VideoAlbumAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/VideoDeleteAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/VideoTypeListAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/ApiAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/VerificationCodeAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Common/Api/route.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/CheckinAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Model/AlbumModel.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/Traits/IsCheckApiTokenAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/TextAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/EmptyAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumlistAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/AlbAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/BaAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Lite/Action.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumListAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/AllAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/BannerAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Admin/ConfigAction.class.php" />
+        <option value="$PROJECT_DIR$/Lib/ThinkPHP/Mode/Cli/Action.class.php" />
+        <option value="$PROJECT_DIR$/Lib/Conf/config.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumListAction.classCopy.php" />
+        <option value="$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumListsAction.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="280" />
+    <option name="y" value="32" />
+    <option name="width" value="1503" />
+    <option name="height" value="1064" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ffcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffcms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffcms" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffcms" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffcms" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffcms" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Action" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffcms" type="462c0819:PsiDirectoryNode" />
+              <item name="Runtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffcms" type="462c0819:PsiDirectoryNode" />
+              <item name="Runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="Conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="User&#9;FILE&#9;file://G:/PHPCUSTOM/wwwroot/ffcms/Lib/Lib/Model/UserModel.class.php&#10;setProperty&#9;null&#9;null&#10;throw&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\PHPCUSTOM\wwwroot\ffcms\Lib\Lib\Action\Api" />
+      <recent name="G:\PHPCUSTOM\wwwroot\ffcms\Lib\Lib\Model" />
+      <recent name="G:\PHPCUSTOM\wwwroot\ffcms\Lib\Common\Api" />
+      <recent name="G:\PHPCUSTOM\wwwroot\ffcms\Lib\Common" />
+      <recent name="G:\PHPCUSTOM\wwwroot\ffcms\Lib\ThinkPHP\Vendor\Sms\Tencent" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\PHPCUSTOM\wwwroot\ffcms\Lib\Common\Api" />
+      <recent name="G:\PHPCUSTOM\wwwroot\ffcms\Lib\Lib\Action\Api\Traits" />
+      <recent name="G:\PHPCUSTOM\wwwroot\ffcms\Lib\ThinkPHP\Vendor\Sms\Tencent" />
+      <recent name="G:\PHPCUSTOM\wwwroot\ffcms\Lib" />
+      <recent name="G:\PHPCUSTOM\wwwroot\ffcms\Lib\Lib\Action\Api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AlbumListsAction.class.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumListsAction.class.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.AlbumListsAction.class.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc75945d-26c6-4a6b-be1f-751193196853" name="Default Changelist" comment="" />
+      <created>1568212649723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568212649723</updated>
+      <workItem from="1568212651683" duration="10999000" />
+      <workItem from="1568227690979" duration="47551000" />
+      <workItem from="1568693999116" duration="47058000" />
+      <workItem from="1568857051867" duration="32657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="138265000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25596184" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32920218" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Think.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="63" column="52" lean-forward="true" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Log.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/App.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Action.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Model/RelationModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Model/AdvModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19872">
+          <caret line="837" column="4" selection-start-line="837" selection-start-column="4" selection-end-line="845" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Exception/ThinkException.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Core/Model/ViewModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/Traits/ApiModelAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/BaseAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/EmptyAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/HomeAction.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/CheckinAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/CoinBalanceAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Home/493c320ed1ddb62134ac385bc39bcc45.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/HomeAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPCUSTOM_Probe/Eliminatebom.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Api/0ecde19ee325f888eb8158ab18439d06.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Admin/16a0ca9f22f31819939e00b8d8d6e3df.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/VcodeAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/程序使用协议.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/~app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#111#118#1" expanded="true" />
+            <element signature="e#111#118#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/~runtime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="1" column="2668" lean-forward="true" selection-start-line="1" selection-start-column="2668" selection-end-line="1" selection-end-column="2668" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Temp/2/7/~@27f1a8b97f5ed92c65b1083f332fd5cb.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Temp/0/8/~@08df27301d6e87f6008afdb3b6cfebb0.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安装说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Data/_feifeicms/player.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Data/_fields/Cj.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Data/_fields/Sms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Data/_fields/Vod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/BaAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Mode/Thin/Action.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Mode/Lite/Action.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Common/Api/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/InputAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/ApiAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/AllAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5194">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Plus/PostAction.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Common/compat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Debug.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Admin/ConfigAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Mode/Cli/Action.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/ThinkPHP/Lib/Think/Util/Dispatcher.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="200" column="38" selection-start-line="200" selection-start-column="27" selection-end-line="200" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/BannerAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="127" column="29" lean-forward="true" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumListsAction.classCopy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/Lib/Action/Api/AlbumListsAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

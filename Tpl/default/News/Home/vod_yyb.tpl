@@ -1,0 +1,1 @@
+<notempty name="feifei.vod_actor"><volist name=":explode(',',$feifei['vod_actor'])" id="feifeiactor" key="y" offset="0" length="3"><in name="y" value="2,3" ><i class="BottomModel">/</i></in>{$feifeiactor}</volist></notempty>

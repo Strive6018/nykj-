@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>文章管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel='stylesheet' type='text/css' href='__PUBLIC__/css/admin-style.css' />
+<style>
+.select a{ font-size:14px; margin-right:5px;}
+.select a.list-son{ display:none; line-height:30px; color:#666}
+.select a.active{color:#F00; font-weight:400;}
+.select .wd{ color:#666}
+.select .all{color: #00F; letter-spacing:2px; font-weight:bold}
+</style>
+<script charset="utf-8" src="__PUBLIC__/jquery/1.11.3/jquery.min.js"></script>
+<script charset="utf-8" src="__PUBLIC__/js/admin.js"></script>
+<script type="text/javascript">
+var createhtml = function(id){
+	ff_dialog('?s=Admin-Create-news_detail_id-ids-'+id,'生成HTML','100%','300');
+}
+var news_select = function($id){
+	$.get("./index.php?s=admin-news-select-id-"+$id, function(data){
+		if(data == 1){
+			$('.select tr').show();
+			$('.select .all').val('收起^').attr('data-id','null');
+		}else{
+			$('.select tr').eq(2).nextAll().hide();
+			$('.select .all').val('展开+').attr('data-id','set');
+		}
+	});
+}
+$(document).ready(function(){
+	$feifeicms.show.table();
+	//
+	$('.list-pid-{$cid}').show();
+	if($('.list-{$cid}').eq(0).attr('data-pid')){
+		$pid = $('.list-{$cid}').eq(0).attr('data-pid');
+		$('.list-pid-'+$pid).show();
+	}
+	$('#tags-{$tag_name|default=1|md5}').addClass('active');
+	$('#status-{$status}').addClass('active');
+	$('#stars-{$stars}').addClass('active');
+	$('#order-{$type}').addClass('active');
+	//
+	news_select('get');
+	$('.select .all').on('click',function(){
+		news_select($(this).attr('data-id'));
+ 	});		
+});
+</script>
+</head>
+<body class="body">
+<include file="./Public/system/plus_createhtml.html" />
+<include file="./Public/system/plus_showpic.html" />
+<include file="./Public/system/plus_bg.html" />
+<table border="0" cellpadding="0" cellspacing="0" class="table select">
+  <thead>
+  <tr>
+    <th colspan="2"><span style="float:left">文章筛选</span>
+    <span class="right"><a href="?s=Admin-News-Add" style="float:right">添加文章</a></span>
+    </th>
+  </tr>
+  </thead>
+  <tr>
+    <td class="l pd" width="80">文章搜索：</td>
+    <td class="r pd">
+    <form action="?s=Admin-News-Show" method="post">
+    <input type="text" class="w200 wd" name="wd" maxlength="30" value="{$wd|default='标题、副标、摘要'|urldecode}" onClick="this.select();">
+    <input type="submit" value="搜索" class="submit">
+    <input type="button" value="展开+" class="submit all" data-id="set">
+    </form>
+    </td>
+  </tr>
+  <tr>
+    <td class="l pd" width="80">分类筛选：</td>
+    <td class="r pd">
+    <assign name="params" value="$admin" />
+    <assign name="params.cid" value="0" />
+    <lt name="cid" value="1">
+    	<a class="active" href="{$params|http_build_query}">全部</a>
+    <else/>
+   		<a href="?{$params|http_build_query}">全部</a>
+    </lt>
+    <assign name="params" value="$admin" />
+    <php>$item_list = ff_mysql_list('sid:2;limit:0;order:list_pid asc,list_oid;sort:asc');</php>
+    <volist name="item_list" id="feifei">
+      <assign name="params.cid" value="$feifei.list_id" />
+      <eq name="feifei.list_id" value="$cid">
+      <a class="active" href="?{$params|http_build_query}">{$feifei.list_name}</a>
+      <else/>
+      <a href="?{$params|http_build_query}">{$feifei.list_name}</a>
+      </eq>
+    </volist>
+    <br />
+    <!--二级分类展示 -->
+    <volist name="item_list" id="feifei">
+      <volist name="feifei['list_son']" id="feifeison">
+      <assign name="params.cid" value="$feifeison.list_id" />
+      <eq name="feifeison.list_id" value="$cid">
+      <a class="active list-{$feifeison.list_id} list-pid-{$feifeison.list_pid}" data-pid="{$feifeison.list_pid}" href="?{$params|http_build_query}">├ {$feifeison.list_name}</a>
+      <else/>
+      <a class="list-son list-{$feifeison.list_id} list-pid-{$feifeison.list_pid}" data-pid="{$feifeison.list_pid}" href="?{$params|http_build_query}">├ {$feifeison.list_name}</a>
+      </eq>
+      </volist>
+    </volist>
+    </td>
+  </tr>
+  <tr>
+    <td class="l pd" width="80">扩展分类：</td>
+    <td class="r pd">
+    <assign name="params" value="$admin" />
+    <assign name="params.tag_name" value="" />
+    <assign name="params.tag_list" value="news_type" />
+    <a id="tags-{:md5(1)}" href="?{$params|http_build_query}">全部</a>
+    <lt name="cid" value="1">
+      <volist name=":explode(',',C('news_type'))" id="val">
+      <assign name="params.tag_name" value="$val" />
+        <a id="tags-{:md5($val)}" href="?{$params|http_build_query}">{$val}</a>
+      </volist>
+    <else/>
+    	<php>$json_extend = ff_list_find($cid, 'list_extend');</php>
+      <volist name=":explode(',',$json_extend['type'])" id="val">
+      <assign name="params.tag_name" value="$val" />
+        <a id="tags-{:md5($val)}" href="?{$params|http_build_query}">{$val}</a>
+      </volist>
+    </lt>
+    </td>
+  </tr>
+  <tr>
+    <td class="l pd" width="80">审核状态：</td>
+    <td class="r pd">
+    <assign name="params" value="$admin" />
+    <assign name="params.status" value="" />
+    <a id="status-" href="?{$params|http_build_query}">全部</a>
+    <assign name="params.status" value="1" />
+    <a id="status-1" href="?{$params|http_build_query}">已审核</a>
+    <assign name="params.status" value="2" />
+    <a id="status-2" href="?{$params|http_build_query}">未审核</a>
+    <assign name="params.status" value="3" />
+    <a id="status-3" href="?{$params|http_build_query}">待验证</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="l pd" width="80">权重状态：</td>
+    <td class="r pd">
+    <assign name="params" value="$admin" />
+    <assign name="params.stars" value="" />
+    <a id="stars-" href="?{$params|http_build_query}">全部</a>
+    <assign name="params.stars" value="1" />
+    <a id="stars-1" href="?{$params|http_build_query}">一星</a>
+    <assign name="params.stars" value="2" />
+    <a id="stars-2" href="?{$params|http_build_query}">二星</a>
+    <assign name="params.stars" value="3" />
+    <a id="stars-3" href="?{$params|http_build_query}">三星</a>
+    <assign name="params.stars" value="4" />
+    <a id="stars-4" href="?{$params|http_build_query}">四星</a>
+    <assign name="params.stars" value="5" />
+    <a id="stars-5" href="?{$params|http_build_query}">五星</a>
+    </td>
+  </tr>   
+  <tr>
+    <td class="l pd" width="80">排序方式：</td>
+    <td class="r pd">
+    <assign name="params" value="$admin" />
+    <assign name="params.type" value="hits" />
+    <a id="order-hits" href="?{$params|http_build_query}">按人气</a>
+    <assign name="params.type" value="gold" />
+    <a id="order-gold" href="?{$params|http_build_query}">按评分</a>
+    <assign name="params.type" value="stars" />
+    <a id="order-stars" href="?{$params|http_build_query}">按权重</a>
+    <assign name="params.type" value="id" />
+    <a id="order-id" href="?{$params|http_build_query}">按入库ID</a>
+    <assign name="params.type" value="addtime" />
+    <a id="order-addtime" href="?{$params|http_build_query}">按更新时间</a>
+    </td>
+  </tr>
+</table>
+<form action="?s=Admin-News-Show" method="post" name="myform" id="myform">
+<table border="0" cellpadding="0" cellspacing="0" class="table">
+  <thead>
+    <tr class="ct">
+      <th class="r" width="20">ID</th>
+      <th class="l" ><span style="float:left; padding-top:7px"><eq name="orders" value="news_id desc"><a href="?s=Admin-News-Show-cid-{$cid}-stars-{$stars}-status-{$status}-type-id-order-asc"><img src="__PUBLIC__/images/admin/up.gif" border="0" alt="点击按ID升序排列"></a><else /><a href="?s=Admin-News-Show-cid-{$cid}-stars-{$stars}-status-{$status}-type-id-order-desc"><img src="__PUBLIC__/images/admin/down.gif" border="0" alt="点击按ID降序排列"></a></eq></span>文章标题</th>
+      <th class="l" width="70">分类</th>
+      <th class="l" width="60">人气<eq name="orders" value="news_hits desc"><a href="?s=Admin-News-Show-cid-{$cid}-stars-{$stars}-status-{$status}-type-hits-order-asc"><img src="__PUBLIC__/images/admin/up.gif" border="0" alt="点击按人气升序排列"></a><else /><a href="?s=Admin-News-Show-cid-{$cid}-stars-{$stars}-status-{$status}-type-hits-order-desc"><img src="__PUBLIC__/images/admin/down.gif" border="0" alt="点击按人气降序排列"></a></eq></th>
+      <th class="l" width="60">评分<eq name="orders" value="news_gold desc"><a href="?s=Admin-News-Show-cid-{$cid}-stars-{$stars}-status-{$status}-type-gold-order-asc"><img src="__PUBLIC__/images/admin/up.gif" border="0" alt="点击按评分升序排列"></a><else /><a href="?s=Admin-News-Show-cid-{$cid}-stars-{$stars}-status-{$status}-type-gold-order-desc"><img src="__PUBLIC__/images/admin/down.gif" border="0" alt="点击按评分降序排列"></a></eq></th>
+      <th class="l" width="80">文章权重<eq name="orders" value="news_stars desc"><a href="?s=Admin-News-Show-cid-{$cid}-stars-{$stars}-status-{$status}-type-stars-order-asc"><img src="__PUBLIC__/images/admin/up.gif" border="0" alt="点击按星级升序排列"></a><else /><a href="?s=Admin-News-Show-cid-{$cid}-stars-{$stars}-status-{$status}-type-stars-order-desc"><img src="__PUBLIC__/images/admin/down.gif" border="0" alt="点击按星级降序排列"></a></eq></th>
+      <th class="l" width="80">更新时间<eq name="orders" value="news_addtime desc"><a href="?s=Admin-News-Show-cid-{$cid}-stars-{$stars}-status-{$status}-type-addtime-order-asc"><img src="__PUBLIC__/images/admin/up.gif" border="0" alt="点击按时间升序排列"></a><else /><a href="?s=Admin-News-Show-cid-{$cid}-stars-{$stars}-status-{$status}-type-addtime-order-desc"><img src="__PUBLIC__/images/admin/down.gif" border="0" alt="点击按时间降序排列"></a></eq></th>
+      <th class="r" width="100">相关操作</th>
+    </tr>
+  </thead>
+  <volist name="list" id="feifei">
+  <tbody>
+  <tr>
+    <td class="r ct"><input name='ids[]' type='checkbox' value='{$feifei.news_id}' class="noborder"></td>
+    <td class="l pd">
+    <span style="float:left"><span style="color:#666666">{$feifei.news_id}、</span><if condition="C('url_html') gt 0"><a href="javascript:createhtml('{$feifei.news_id}');" id="html_{$feifei.news_id}"><font color="green">生成</font></a></if> 『<a href="{$feifei.list_url}">{$feifei.list_name}</a>』<a href="{$feifei.news_url}" target="_blank">{$feifei.news_name|msubstr=0,40,'utf-8',true}</a> <span id="ct_{$feifei.news_id}"><neq name="feifei['news_continu']" value="0"><sup onClick="setcontinu({$feifei.news_id},'{$feifei.news_continu}');" class="navpoint">{$feifei.news_continu}</sup><else/><img src="__PUBLIC__/images/admin/ct.gif" style="margin-top:10px" class="navpoint" onClick="setcontinu({$feifei.news_id},'{$feifei.news_continu}');"></neq></span></span>
+    </td>
+    <td class="l ct"><a href="{$feifei.list_url}">{$feifei.news_cid|ff_list_find}</a></td>
+    <td class="l ct">{$feifei.news_hits}</td>
+    <td class="l ct">{$feifei.news_gold}</td>
+    <td class="l ct"><volist name="feifei['news_starsarr']" id="ajaxstar"><img src="__PUBLIC__/images/admin/star{$ajaxstar}.gif" onClick="setstars('News',{$feifei.news_id},{$i});" id="star_{$feifei.news_id}_{$i}" class="navpoint"></volist></td>
+    <td class="l ct">{$feifei.news_addtime|date='Y-m-d',###}</td>
+    <td class="r ct"><a href="?s=Admin-News-Add-cid-{$feifei.news_cid}-id-{$feifei.news_id}" title="点击修改影片">编辑</a> <a href="?s=Admin-News-Del-id-{$feifei.news_id}" onClick="return confirm('确定删除该文章吗?')" title="点击删除影片">删除</a> <eq name="feifei.news_status" value="1"><a href="?s=Admin-News-Status-id-{$feifei.news_id}-value-0" title="点击隐藏文章">隐藏</a><else /><a href="?s=Admin-News-Status-id-{$feifei.news_id}-value-1" title="点击显示文章"><font color="red">显示</font></a></eq></td>
+  </tr>
+  </tbody>
+  </volist>
+    <tr>
+      <td colspan="9" class="r pages">{$pages}</td>
+    </tr>   
+  <tfoot>
+    <tr>
+      <td colspan="9" class="r"><input type="button" value="全选" class="submit" onClick="checkall('all');"> <input name="" type="button" value="反选" class="submit" onClick="checkall();"> <eq name="Think.config.url_html" value="1"><input type="button" value="生成静态" name="createhtml" id="createhtml" class="submit" onClick="post('?s=Admin-News-Create');"/></eq> <input type="button" value="批量删除" class="submit" onClick="if(confirm('删除后将无法还原,确定要删除吗?')){post('?s=Admin-News-Delall');}else{return false;}"> <input type="button" value="批量移动" class="submit" onClick="$('#psetcid').show();"> <span style="display:none" id="psetcid"><select name="pestcid"><option value="">选择目标分类</option><volist name=":ff_mysql_list('sid:2;limit:0;order:list_pid asc,list_oid;sort:asc')" id="feifei"><option value="{$feifei.list_id}" <eq name="feifei.list_id" value="$cid">selected</eq>>{$feifei.list_name}</option><volist name="feifei['list_son']" id="feifei"><option value="{$feifei.list_id}" <eq name="feifei.list_id" value="$cid">selected</eq>>├ {$feifei.list_name}</option></volist></volist></select> <input type="button" class="submit" value="确定转移" onClick="post('?s=Admin-News-Pestcid');"/></span></td>
+    </tr>  
+  </tfoot>
+</table>
+</form>
+<include file="./Public/system/footer.html" />
+</body>
+</html>

@@ -1,0 +1,2 @@
+<a class="mr-1" href="{:ff_url_vod_show($list_id,$list_dir,1)}">{$list_name}</a><notempty name="vod_type"><volist name=":explode(',',$vod_type)" id="feifei">
+<a class="mr-1" href="{:ff_url('vod/type',array('id'=>$list_id,'type'=>urlencode($feifei),'area'=>'','year'=>'','star'=>'','state'=>'','order'=>'hits'),true)}">{$feifei}</a></volist></notempty>

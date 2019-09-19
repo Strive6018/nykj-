@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>后台用户管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel='stylesheet' type='text/css' href='__PUBLIC__/css/admin-style.css' />
+<script charset="utf-8" src="__PUBLIC__/jquery/1.11.3/jquery.min.js"></script>
+<script charset="utf-8" src="__PUBLIC__/js/admin.js"></script>
+</head>
+<body class="body">
+<form action="?s=Admin-Html-Maps" method="post" name="myform" id="myform">
+<table border="0" cellpadding="0" cellspacing="0" class="table">
+<thead>
+<tr><th style="text-align:left">静态网页生成选项 <notempty name="jumpurl" value=""><a href="{$jumpurl}" style="font-weight:bold;color:#FF0000">上一次有生成静态网任务未完成，是否接着生成?</a></notempty></th>
+</thead>
+<tr>
+  <td class="tr">一键生成全站：
+  <input type="button" value="生成全站" class="submit" onClick="post('?s=Admin-Create-Html-action-all-jump-1');" {$url_html}/>
+  </td>
+</tr>
+<tr>
+  <td class="tr">生成网站首页：
+  <input type="button" value="生成首页" class="submit" onClick="post('?s=Admin-Create-Html-action-index');" {$url_html}/> 
+  </td>
+</tr>
+<tr>
+  <td class="tr">视频内容页按时间：
+	<select name="vod_day" class="w120"><option value="1">当天</option><option value="2">1天前</option><option value="3">2天前</option><option value="4">3天前</option><option value="5">4天前</option><option value="6">5天前</option><option value="7">7天前</option><option value="30">30天前</option><option value="100">100天前</option></select>
+  <input type="button" value="生成" class="submit"  onClick="post('?s=Admin-Create-Html-action-vod_detail_day');" {$url_vod_detail}/>
+  </td>
+</tr>
+<tr>
+  <td class="tr">视频内容页按分类：
+  <select name="vod_cids" class="w120"><option value="{$list_vod_all}">全部影片</option><volist name="list" id="feifei"><eq name="feifei.list_sid" value="1"><option value="{$feifei.list_id}">{$feifei.list_name}</option></eq><volist name="feifei['list_son']" id="feifeison"><eq name="feifeison.list_sid" value="1"><option value="{$feifeison.list_id}">{$feifeison.list_name}</option></eq></volist></volist></select>
+  <input type="button" value="生成" class="submit"  onClick="post('?s=Admin-Create-Html-action-vod_detail_cids');" {$url_vod_detail}/>
+  </td>
+</tr>
+<tr>
+  <td class="tr">视频分类页按ID值：
+  <select name="vod_list" class="w120"><option value="{$list_vod_all}">全部分类</option><volist name="list" id="feifei"><eq name="feifei.list_sid" value="1"><option value="{$feifei.list_id}">{$feifei.list_name}</option></eq><volist name="feifei['list_son']" id="feifeison"><eq name="feifeison.list_sid" value="1"><option value="{$feifeison.list_id}">{$feifeison.list_name}</option></eq></volist></volist></select>
+  <input type="button" value="生成" class="submit"  onClick="post('?s=Admin-Create-Html-action-vod_list_page');" {$url_vod_list}/>
+  </td>
+</tr>
+<tr>
+  <td class="tr">文章内容页按时间：
+	<select name="news_day" class="w120"><option value="1">当天</option><option value="2">1天前</option><option value="3">2天前</option><option value="4">3天前</option><option value="5">4天前</option><option value="6">5天前</option><option value="7">7天前</option><option value="30">30天前</option><option value="100">100天前</option></select>
+  <input type="button" value="生成" class="submit"  onClick="post('?s=Admin-Create-Html-action-news_detail_day');" {$url_news_detail}/>
+  </td>
+</tr>
+<tr>
+  <td class="tr">文章内容页按分类：
+  <select name="news_cids" class="w120"><option value="{$list_news_all}">全部分类</option><volist name="list" id="feifei"><eq name="feifei.list_sid" value="2"><option value="{$feifei.list_id}">{$feifei.list_name}</option></eq><volist name="feifei['list_son']" id="feifeison"><eq name="feifeison.list_sid" value="2"><option value="{$feifeison.list_id}">{$feifeison.list_name}</option></eq></volist></volist></select>
+  <input type="button" value="生成" class="submit"  onClick="post('?s=Admin-Create-Html-action-news_detail_cids');" {$url_news_detail}/>
+  </td>
+</tr>
+<tr>
+  <td class="tr">文章分类页按ID值：
+  <select name="news_list" class="w120"><option value="{$list_news_all}">全部分类</option><volist name="list" id="feifei"><eq name="feifei.list_sid" value="2"><option value="{$feifei.list_id}">{$feifei.list_name}</option></eq><volist name="feifei['list_son']" id="feifeison"><eq name="feifeison.list_sid" value="2"><option value="{$feifeison.list_id}">{$feifeison.list_name}</option></eq></volist></volist></select>
+  <input type="button" value="生成" class="submit"  onClick="post('?s=Admin-Create-Html-action-news_list_page');" {$url_news_list}/>
+  </td>
+</tr>
+</table>
+</form>
+<include file="./Public/system/footer.html" />
+</body>
+</html>
