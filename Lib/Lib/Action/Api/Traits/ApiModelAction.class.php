@@ -6,7 +6,6 @@ class ApiModelAction extends RelationModel
     protected function _initialize()
     {
         parent::_initialize();
-        var_dump(123);
 
     }
 
