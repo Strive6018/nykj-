@@ -3,7 +3,7 @@
  * 发现页专辑接口
  * Class AlbumListAction
  */
-class AlbumListsAction extends ApiAction
+class AlbumListAction extends ApiAction
 {
 
     public function _initialize()
