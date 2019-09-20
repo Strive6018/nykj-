@@ -1,4 +1,4 @@
-﻿程序名称：飞飞CMSPHP影视点播系统至尊版
+程序名称：飞飞CMSPHP影视点播系统至尊版
 程序版本：V9.0
 官方网站：www.FiFiCms.com
 安装环境：php5.2-php5.6、mysql5或更高版本
