@@ -1,5 +1,6 @@
 <?php
 import('feifeicms.Action.Api.Traits.IsCheckApiTokenAction');
+require_once (APP_PATH.'./Common/Api/Consts.php');
 class ApiAction extends Action
 {
     protected $user_id;
@@ -36,7 +37,7 @@ class ApiAction extends Action
     /**
      * 重写success方法
      */
-    protected function success($data,$message= ApiCodeOptions[ApiCodeSucceed])
+    protected function success($data,$message = ApiCodeOptions[ApiCodeSucceed])
     {
         $this->ajaxReturn($data,$message);
     }
@@ -52,7 +53,10 @@ class ApiAction extends Action
     private function IsApiTokenOrRoute(){
         $this->IsCheckApiToken = new IsCheckApiTokenAction();
         //检查提交方式是否正确
-        $isMethod = 'is'.S('ApiRoutes')[__ACTION__]['method'];
+        if(!isset(S(ApiRouteCacheName)[__ACTION__])){
+            $this->api_error(ApiCodeOptions[ApiCodeAccessDenied],ApiCodeAccessDenied);
+        }
+        $isMethod = 'is'.S(ApiRouteCacheName)[__ACTION__]['method'];
         if(!$this->$isMethod()){
             $this->api_error(ApiCodeOptions[ApiCodeAccessDenied],ApiCodeAccessDenied);
         }

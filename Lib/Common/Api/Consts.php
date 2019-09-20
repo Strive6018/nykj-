@@ -12,6 +12,7 @@ const ApiCodeOptions = [
     10005=>'目标不存在或已被删除',
     10006=>'没有权限',
     10007=>'失败',
+    10008=>'拒绝访问'
 ];
 //成功
 const ApiCodeSucceed = 10000;
@@ -29,6 +30,8 @@ const ApiCodeInexistence = 10005;
 const ApiCodeForbidden = 10006;
 //失败
 const ApiCodeFailure = 10007;
+//拒绝访问
+const ApiCodeAccessDenied = 10008;
 
 //-----------系统设置-------------------
 const SystemSetup = [
