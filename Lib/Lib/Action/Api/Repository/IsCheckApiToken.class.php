@@ -1,5 +1,5 @@
 <?php
-class  IsCheckApiTokenAction
+class  IsCheckApiToken
 {
     public function __construct()
     {
@@ -13,9 +13,7 @@ class  IsCheckApiTokenAction
      * 验证路由
      */
     public function IsCheckRoute(){
-//        $routeArray = S(ApiRouteCacheName);
-        $routeArray = include(APP_PATH.'./Common/Api/route.php');
-        if($routeArray[__ACTION__]['is'] === true){
+        if(S(ApiRouteCacheName)[__ACTION__]['is'] === true){
             if(!isset($_REQUEST[ApiTokenName])){
                 return false;
             }

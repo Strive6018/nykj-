@@ -1,5 +1,5 @@
 <?php
-require APP_PATH.'./Common/Api/Consts.php';
+require_once APP_PATH.'./Common/Api/Consts.php';
 
 class ApiModelAction extends RelationModel
 {
