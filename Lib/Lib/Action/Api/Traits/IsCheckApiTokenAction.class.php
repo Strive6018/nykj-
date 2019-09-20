@@ -15,7 +15,6 @@ class  IsCheckApiTokenAction
     public function IsCheckRoute(){
 //        $routeArray = S(ApiRouteCacheName);
         $routeArray = include(APP_PATH.'./Common/Api/route.php');
-        var_dump($routeArray);die;
         if($routeArray[__ACTION__]['is'] === true){
             if(!isset($_REQUEST[ApiTokenName])){
                 return false;
