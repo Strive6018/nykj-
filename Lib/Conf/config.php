@@ -22,7 +22,7 @@ $array = array(
 	//3.3 add
 	'TMPL_DETECT_THEME'=>true,
 	'VAR_TEMPLATE'=>"theme",
-	'APP_DEBUG'       => true,    // 是否开启调试模式
+//	'APP_DEBUG'       => true,    // 是否开启调试模式
   //'SHOW_RUN_TIME'		=> true,   // 运行时间显示
   //'SHOW_ADV_TIME'		=> true,   // 显示详细的运行时间
   //'SHOW_DB_TIMES'		=> true,   // 显示数据库查询和写入次数
