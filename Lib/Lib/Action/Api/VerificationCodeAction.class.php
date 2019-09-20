@@ -4,7 +4,7 @@
  * Class VerificationCode
  */
 
-import('feifeicms.Action.Api.Traits.Sms');
+import('feifeicms.Action.Api.Repository.Sms');
 class VerificationCodeAction extends ApiAction
 {
     private $Sms;

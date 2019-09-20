@@ -1,5 +1,5 @@
 <?php
-import('feifeicms.Action.Api.Traits.IsCheckApiTokenAction');
+import('feifeicms.Action.Api.Repository.IsCheckApiToken');
 require_once (APP_PATH.'./Common/Api/Consts.php');
 class ApiAction extends Action
 {
@@ -51,7 +51,7 @@ class ApiAction extends Action
     }
 
     private function IsApiTokenOrRoute(){
-        $this->IsCheckApiToken = new IsCheckApiTokenAction();
+        $this->IsCheckApiToken = new IsCheckApiToken();
         //检查提交方式是否正确
         if(!isset(S(ApiRouteCacheName)[__ACTION__])){
             $this->api_error(ApiCodeOptions[ApiCodeAccessDenied],ApiCodeAccessDenied);

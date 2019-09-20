@@ -1,5 +1,5 @@
 <?php
-import('feifeicms.Action.Api.Traits.ApiModelAction');
+import('feifeicms.Action.Api.Repository.ApiModelAction');
 
 class AlbumModel extends ApiModelAction {
     // 查询多个数据

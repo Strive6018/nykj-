@@ -1,5 +1,5 @@
 <?php
-import('feifeicms.Action.Api.Traits.ApiModelAction');
+import('feifeicms.Action.Api.Repository.ApiModelAction');
 
 class SystemSetupModel extends ApiModelAction
 {

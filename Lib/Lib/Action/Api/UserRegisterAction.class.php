@@ -1,5 +1,5 @@
 <?php
-import('feifeicms.Action.Api.Traits.Sms');
+import('feifeicms.Action.Api.Repository.Sms');
 
 /**
  * 用户注册接口类
