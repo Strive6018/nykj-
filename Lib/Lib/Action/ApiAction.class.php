@@ -10,8 +10,8 @@ class ApiAction extends Action
     public function _initialize()
     {
         $this->api_the_refresh();
-        $this->request = $_REQUEST;
         $this->IsApiTokenOrRoute();
+        $this->request = $_REQUEST;
         $this->user_id = S($this->request[ApiTokenName])['user_id'];
     }
 
@@ -60,7 +60,7 @@ class ApiAction extends Action
     }
 
     /**
-     * 防止刷新
+     * 接口防刷新
      */
     private function api_the_refresh(){
         session_start();
