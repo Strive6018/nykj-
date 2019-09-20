@@ -10,12 +10,12 @@ return [
         'method'=>'Get',
         'is'=>false
     ],
-    //用户金币余额 todo::404
+    //用户金币余额
     '/index.php?s=/api-coinbalance-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //金币明细 todo::404
+    //金币明细
     '/index.php?s=/api-coinlist-index'=>[
         'method'=>'Get',
         'is'=>false,
@@ -25,97 +25,97 @@ return [
         'method'=>'Get',
         'is'=>false
     ],
-    //--收藏视频功能--//
+    //--收藏视频
     '/index.php?s=/api-favorites-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--取消收藏视频功能--//
+    //--取消收藏视频
     '/index.php?s=/api-favoritesdelete-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--获取收藏列表--//
+    //--获取收藏列表
     '/index.php?s=/api-favoriteslist-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--视频收藏状态功能--//
+    //--视频收藏状态
     '/index.php?s=/api-favoritesstatus-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--首页数据--//
+    //--首页数据
     '/index.php?s=/api-home-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--填写邀请码--//
+    //--填写邀请码
     '/index.php?s=/api-input-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--我邀请的用户列表--//
+    //--我邀请的用户列表
     '/index.php?s=/api-invitedlist-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--修改用户密码--//
+    //--修改用户密码
     '/index.php?s=/api-modifypassword-index'=>[
         'method'=>'Post',
         'is'=>false
     ],
-    //--获取播放记录--//
+    //--获取播放记录
     '/index.php?s=/api-record-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--可兑换列表--//
+    //--可兑换列表
     '/index.php?s=/api-redeemlist-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--获取搜索数据--//
+    //--获取搜索数据
     '/index.php?s=/api-search-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--获取视频推荐数据--//
+    //--获取视频推荐数据
     '/index.php?s=/api-suggest-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--任务中心--//
+    //--任务中心
     '/index.php?s=/api-tasklist-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--获取分类列表数据--//
+    //--获取分类列表数据
     '/index.php?s=/api-typelist-index'=>[
         'method'=>'Post',
         'is'=>false
     ],
-    //--用户中心--//
+    //--用户中心
     '/index.php?s=/api-user-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--修改用户名称--//
+    //--修改用户名称
     '/index.php?s=/api-username-index'=>[
         'method'=>'Post',
         'is'=>false
     ],
-    //--发现页专辑详情--//
+    //--发现页专辑详情
     '/index.php?s=/api-videoalbum-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--删除播放记录--//
+    //--删除播放记录
     '/index.php?s=/api-videodelete-index'=>[
         'method'=>'Post',
         'is'=>false
     ],
-    //--发现页分类列表--//
+    //--发现页分类列表
     '/index.php?s=/api-videotypelist-index'=>[
         'method'=>'Get',
         'is'=>false
@@ -123,27 +123,22 @@ return [
 
     //------------------------------------------------------------------------------------------
 
-    //--获取banner图数据--//
+    //--获取banner
     '/index.php?s=/api-banner-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--获取视频详情数据--//
+    //--获取视频详情数据
     '/index.php?s=/api-videodetail-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--获取发现页专辑接口数据--//
-    '/index.php?s=/api-album-index'=>[
-        'method'=>'Get',
-        'is'=>false
-    ],
-    //--用户注册--//
+    //--用户注册
     '/index.php?s=/api-userregister-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
-    //--验证码发送--//
+    //--验证码发送
     '/index.php?s=/api-verificationcode-index'=>[
         'method'=>'Get',
         'is'=>false
