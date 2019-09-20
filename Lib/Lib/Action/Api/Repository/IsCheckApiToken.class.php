@@ -3,7 +3,6 @@ class  IsCheckApiToken
 {
     public function __construct()
     {
-        //检查缓存中是否存在
         if(!S(ApiRouteCacheName)){
             S(ApiRouteCacheName,include(APP_PATH.'./Common/Api/route.php'),ApiRouteCacheTime);
         }
