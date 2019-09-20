@@ -12,7 +12,9 @@ const ApiCodeOptions = [
     10005=>'目标不存在或已被删除',
     10006=>'没有权限',
     10007=>'失败',
-    10008=>'拒绝访问'
+    10008=>'拒绝访问',
+    10009=>'请先登陆',
+    10010=>'请求频繁'
 ];
 //成功
 const ApiCodeSucceed = 10000;
@@ -32,6 +34,8 @@ const ApiCodeForbidden = 10006;
 const ApiCodeFailure = 10007;
 //拒绝访问
 const ApiCodeAccessDenied = 10008;
+//请先登陆
+const ApiCodeAccessUserLogin = 10009;
 
 //-----------系统设置-------------------
 const SystemSetup = [
@@ -51,6 +55,8 @@ const Sms = [
 
 //数据库缓存时间
 const Cachetime = 86400;
+
+
 //-----------视频状态-------------------
 const VodStutas = [
     1=>'正常',
@@ -73,6 +79,16 @@ const ApiTokenCacheTime = 86400;
 //用户api_token过期时间(单位：天)
 const ApiTokenOvertime = 30;
 
+
 //-----------验证码模块---------------
 //短信验证码缓存时间
 const VerificationCodeCacheTime = 180;
+
+//-----------访刷新设置---------------
+
+//防刷时间（单位/分钟）
+const AllowSep = 1;
+//防刷次数
+const TimeQuantum = 60;
+//SessionKey
+const TheRefresh = 'TheRefresh';

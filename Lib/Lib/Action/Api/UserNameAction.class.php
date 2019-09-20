@@ -22,7 +22,7 @@ class UserNameAction extends ApiAction
      * 逻辑层
      */
     private function  handle(){
-        if(!$this->model->where(array('user_id' => 2))->save(array('user_name'=>$this->request['name']))){
+        if(!$this->model->where(array('user_id' => $this->user_id))->save(array('user_name'=>$this->request['name']))){
             $this->api_error('修改失敗');
         }
     }

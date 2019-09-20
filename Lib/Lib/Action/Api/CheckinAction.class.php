@@ -16,18 +16,13 @@ class CheckinAction extends ApiAction
      * 验证层
      */
     private function validate(){
-        $user_id = 2;
-        if(empty($user_id)){
-            $this->api_error('请先登录!');
-        }
     }
 
     /**
      * 逻辑层
      */
     private function  handle(){
-        $user_id = 2;
-        $this->data = $this->model->checkin($user_id);
+        $this->data = $this->model->checkin($this->user_id);
         if($this->data==1){
             $this->api_error("您今日已签到");
         }elseif($this->data==2){

@@ -16,17 +16,12 @@ class FavoritesListAction extends ApiAction
      * 验证层
      */
     private function validate(){
-        $user_id = 2;
-        if(empty($user_id)){
-            $this->api_error("请先登录");
-        }
     }
 
     /**
      * 逻辑层
      */
     private function  handle(){
-        $user_id = 2;
         $params =  implode(',',[
             'vod_id as videoId',
             'vod_name as title',
@@ -43,7 +38,7 @@ class FavoritesListAction extends ApiAction
             'vod_hits as priority',
             'vod_addtime as createTime'
         ]);
-        if(!$this->data = $this->model->Collect_list($params,$user_id)){
+        if(!$this->data = $this->model->Collect_list($params,$this->user_id)){
             $this->api_error("暂无数据");
         }
     }

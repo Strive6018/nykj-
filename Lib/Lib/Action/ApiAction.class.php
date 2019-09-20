@@ -7,11 +7,12 @@ class ApiAction extends Action
     protected $request;
     protected $data = [];
     protected $model;
-    private $IsCheckApiToken;
     public function _initialize()
     {
+        $this->api_the_refresh();
         $this->request = $_REQUEST;
         $this->IsApiTokenOrRoute();
+        $this->user_id = S($this->request[ApiTokenName])['user_id'];
     }
 
     /**
@@ -51,27 +52,37 @@ class ApiAction extends Action
     }
 
     private function IsApiTokenOrRoute(){
-        $this->IsCheckApiToken = new IsCheckApiToken();
-        //检查提交方式是否正确
-        if(!isset(S(ApiRouteCacheName)[__ACTION__])){
-            $this->api_error(ApiCodeOptions[ApiCodeAccessDenied],ApiCodeAccessDenied);
+        $IsCheckApiToken = new IsCheckApiToken();
+        $IsCheckApiToken = $IsCheckApiToken->execute();
+        if($IsCheckApiToken !== true){
+            $this->api_error(ApiCodeOptions[$IsCheckApiToken],$IsCheckApiToken);
         }
-        $isMethod = 'is'.S(ApiRouteCacheName)[__ACTION__]['method'];
-        if(!$this->$isMethod()){
-            $this->api_error(ApiCodeOptions[ApiCodeAccessDenied],ApiCodeAccessDenied);
-        }
-        //检查路由是否正确
-        if(!$this->IsCheckApiToken->IsCheckRoute()){
-            $this->api_error(ApiCodeOptions[ApiCodeApiTokenError],ApiCodeApiTokenError);
-        }
-        //检查api_token是否正确
-        $api_token = $this->IsCheckApiToken->IsCheckApiToken();
-        if(!$api_token){
-            $this->api_error(ApiCodeOptions[$api_token],$api_token);
-        }else{
-            $this->user_id = S($this->request[ApiTokenName])['user_id'];
-        }
-
     }
 
+    /**
+     * 防止刷新
+     */
+    private function api_the_refresh(){
+        session_start();
+        if (isset($_SESSION[TheRefresh]))
+        {
+            if (time() - $_SESSION[TheRefresh]['time'] < AllowSep*60) {
+                if($_SESSION[TheRefresh]['num'] >= TimeQuantum){
+                    $this->api_error('请求频繁',500);
+                }else{
+                    $_SESSION[TheRefresh]['num']++;
+                }
+            }else {
+                $_SESSION[TheRefresh] = [
+                    'time'=>time(),
+                    'num'=>1
+                ];
+            }
+        }else {
+            $_SESSION[TheRefresh] = [
+                'time'=>time(),
+                'num'=>1
+            ];
+        }
+    }
 }

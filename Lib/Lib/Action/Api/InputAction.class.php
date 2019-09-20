@@ -6,7 +6,6 @@
  */
 class InputAction extends ApiAction
 {
-    protected $user_id = 1;
     public function _initialize()
     {
         parent::_initialize();

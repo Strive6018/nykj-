@@ -296,11 +296,8 @@ class UserModel extends RelationModel {
 		return $this->where($where)->count('user_id');
 	}
 
-	// todo::检查api_token 参数：$api_token（用户登陆生成的加密字符串）
+	// 检查api_token 参数：$api_token（用户登陆生成的加密字符串）
 	public function inspection_apitoken($api_token){
-		if(empty($api_token)){
-			return ApiCodeApiTokenError;
-		}
 		//写入缓存
 		if(!S($api_token)){
 			$where['user_api_token']= ['eq',$api_token];

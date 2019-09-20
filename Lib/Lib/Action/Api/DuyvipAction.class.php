@@ -6,7 +6,6 @@
  */
 class DuyvipAction extends ApiAction
 {
-    protected $user_id = 2;
     public function _initialize()
     {
         parent::_initialize();

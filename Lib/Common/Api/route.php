@@ -8,42 +8,42 @@ return [
     //用户签到接口
     '/index.php?s=/api-checkin-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //用户金币余额
     '/index.php?s=/api-coinbalance-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //金币明细
     '/index.php?s=/api-coinlist-index'=>[
         'method'=>'Get',
-        'is'=>false,
+        'is'=>true,
     ],
     //兑换VIP
     '/index.php?s=/api-duyvip-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--收藏视频
     '/index.php?s=/api-favorites-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--取消收藏视频
     '/index.php?s=/api-favoritesdelete-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--获取收藏列表
     '/index.php?s=/api-favoriteslist-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--视频收藏状态
     '/index.php?s=/api-favoritesstatus-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--首页数据
     '/index.php?s=/api-home-index'=>[
@@ -53,22 +53,22 @@ return [
     //--填写邀请码
     '/index.php?s=/api-input-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--我邀请的用户列表
     '/index.php?s=/api-invitedlist-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--修改用户密码
     '/index.php?s=/api-modifypassword-index'=>[
         'method'=>'Post',
-        'is'=>false
+        'is'=>true
     ],
     //--获取播放记录
     '/index.php?s=/api-record-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--可兑换列表
     '/index.php?s=/api-redeemlist-index'=>[
@@ -98,12 +98,12 @@ return [
     //--用户中心
     '/index.php?s=/api-user-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--修改用户名称
     '/index.php?s=/api-username-index'=>[
         'method'=>'Post',
-        'is'=>false
+        'is'=>true
     ],
     //--发现页专辑详情
     '/index.php?s=/api-videoalbum-index'=>[
@@ -113,7 +113,7 @@ return [
     //--删除播放记录
     '/index.php?s=/api-videodelete-index'=>[
         'method'=>'Post',
-        'is'=>false
+        'is'=>true
     ],
     //--发现页分类列表
     '/index.php?s=/api-videotypelist-index'=>[

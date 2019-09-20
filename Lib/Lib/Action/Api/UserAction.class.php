@@ -22,7 +22,7 @@ class UserAction extends ApiAction
      */
     private function  handle(){
         $field ='user_name as userName,user_face as userPortrait';
-        $this->data = $this->model->ff_find($field, array('user_id'=>array('eq',2)), false, false, false);
+        $this->data = $this->model->ff_find($field, array('user_id'=>array('eq',$this->user_id)), false, false, false);
     }
 
     private function response(){

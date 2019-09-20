@@ -25,7 +25,7 @@ class InvitedListAction extends ApiAction
      * 逻辑层
      */
     private function  handle(){
-        $where = "be_invited_id=2";
+        $where = "be_invited_id=$this->user_id";
         $_data = $this->model['invitedList']->where($where)->select();
         $id_arr = [];
         for( $i=0;$i<count($_data);$i++)

@@ -49,7 +49,7 @@ class VerificationCodeAction extends ApiAction
         //生成随机验证码
         $RandomVerificationCode = rand(1000,9999);
         //测试模板发送验证码
-        $params = ['Strive',$RandomVerificationCode,1];
+        $params = ["Strive","$RandomVerificationCode",1];
         if($this->Sms->SmsConfiguration($Sms['value'])->tencent_sms($this->request['phone'],$params)){
             S(md5(get_client_ip().$this->request['phone'].$this->request['deviceid']),['code'=>$RandomVerificationCode,'phone'=>$this->request['phone']],VerificationCodeCacheTime);
         }else{

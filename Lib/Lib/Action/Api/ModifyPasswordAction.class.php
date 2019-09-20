@@ -22,8 +22,7 @@ class ModifyPasswordAction extends ApiAction
      * 逻辑层
      */
     private function  handle(){
-        $this->date= $this->model->ff_update(array('user_pwd'=>trim($this->request['Password']),'user_id'=>2));
-
+        $this->date= $this->model->ff_update(array('user_pwd'=>trim($this->request['Password']),'user_id'=>$this->user_id));
     }
 
     private function response(){
