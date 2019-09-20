@@ -1,7 +1,7 @@
 <?php
-import('feifeicms.Action.Api.Repository.ApiModelAction');
+import('feifeicms.Action.Api.Repository.ApiModel');
 
-class SystemSetupModel extends ApiModelAction
+class SystemSetupModel extends ApiModel
 {
     // 主键名称
     protected $pk  = 'keyword';

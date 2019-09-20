@@ -1,12 +1,12 @@
 <?php
-import('feifeicms.Action.Api.Repository.ApiModelAction');
+import('feifeicms.Action.Api.Repository.ApiModel');
 
 /**
  * todo::新增表模型
  * 金币明细表
  * Class CionDetailModel
  */
-class CionDetailModel extends ApiModelAction {
+class CionDetailModel extends ApiModel {
 
         public function index($user_id){
             $data=[

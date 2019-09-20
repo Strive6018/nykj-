@@ -1,10 +1,10 @@
 <?php
-import('feifeicms.Action.Api.Repository.ApiModelAction');
+import('feifeicms.Action.Api.Repository.ApiModel');
 /**
  * todo:: 新增表模型
  * 用户签到表
  */
-class UserSignModel extends ApiModelAction {
+class UserSignModel extends ApiModel {
 	 public function checkin($user_id){
          $todayAt = strtotime(date('Y-m-d'));
          $where = array(

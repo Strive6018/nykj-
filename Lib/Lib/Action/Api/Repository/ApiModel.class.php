@@ -1,7 +1,7 @@
 <?php
 require_once APP_PATH.'./Common/Api/Consts.php';
 
-class ApiModelAction extends RelationModel
+class ApiModel extends RelationModel
 {
     protected function _initialize()
     {
