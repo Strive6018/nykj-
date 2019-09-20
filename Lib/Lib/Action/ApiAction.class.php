@@ -68,7 +68,7 @@ class ApiAction extends Action
         {
             if (time() - $_SESSION[TheRefresh]['time'] < AllowSep*60) {
                 if($_SESSION[TheRefresh]['num'] >= TimeQuantum){
-                    $this->api_error('请求频繁',500);
+                    $this->api_error(ApiCodeOptions[ApiCodeTheRequestIsFrequent],ApiCodeTheRequestIsFrequent);
                 }else{
                     $_SESSION[TheRefresh]['num']++;
                 }
@@ -84,5 +84,6 @@ class ApiAction extends Action
                 'num'=>1
             ];
         }
+        Header(TheRefresh.":".$_SESSION[TheRefresh]['num']);
     }
 }

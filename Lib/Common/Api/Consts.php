@@ -36,6 +36,8 @@ const ApiCodeFailure = 10007;
 const ApiCodeAccessDenied = 10008;
 //请先登陆
 const ApiCodeAccessUserLogin = 10009;
+//请求频繁
+const ApiCodeTheRequestIsFrequent = 10010;
 
 //-----------系统设置-------------------
 const SystemSetup = [
@@ -89,6 +91,6 @@ const VerificationCodeCacheTime = 180;
 //防刷时间（单位/分钟）
 const AllowSep = 1;
 //防刷次数
-const TimeQuantum = 60;
+const TimeQuantum = 5;
 //SessionKey
 const TheRefresh = 'TheRefresh';
