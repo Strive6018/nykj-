@@ -28,7 +28,6 @@ class UserSignModel extends ApiModel {
              'integral' => UserCoinListType[UserCoinCheckin]['coin'],
              'continuous_days' => $continuousDays,
              'sign_in_at' => time(),
-             'created_at' => time(),
          );
          $insertRet = $this->add($insertData);
 
