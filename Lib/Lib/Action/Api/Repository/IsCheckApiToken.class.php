@@ -1,5 +1,5 @@
 <?php
-class  IsCheckApiToken
+class  IsCheckApiToken extends ApiAction
 {
     public function __construct()
     {
@@ -11,18 +11,27 @@ class  IsCheckApiToken
     /**
      * 验证路由
      */
-    public function IsCheckRoute(){
+    private function IsCheckRoute(){
+        //检查提交方式是否正确
+        if(!isset(S(ApiRouteCacheName)[__ACTION__]) ||
+            strtolower(S(ApiRouteCacheName)[__ACTION__]['method']) != strtolower($_SERVER["REQUEST_METHOD"])){
+            return ApiCodeAccessDenied;
+
+        }
         if(S(ApiRouteCacheName)[__ACTION__]['is'] === true){
-            if(!isset($_REQUEST[ApiTokenName])){
-                return false;
+            if(empty($_REQUEST[ApiTokenName])){
+                return ApiCodeAccessUserLogin;
             }
+            return D('User')->inspection_apitoken($_REQUEST[ApiTokenName]);
         }
         return true;
+
     }
+
     /**
-     * 验证Apitoken是否正确
+     * 执行
      */
-    public function IsCheckApiToken(){
-        return D('User')->inspection_apitoken($_REQUEST[ApiTokenName]);
+    public function execute(){
+         return $this->IsCheckRoute();
     }
 }
