@@ -5,8 +5,11 @@ import('feifeicms.Action.Api.Repository.ApiModel');
  * 用户签到表
  */
 class UserSignModel extends ApiModel {
+
+
 	 public function checkin($user_id){
          $todayAt = strtotime(date('Y-m-d'));
+
          $where = array(
              'user_id' => $user_id,
              'sign_in_at' => array('EGT', $todayAt)
@@ -17,7 +20,7 @@ class UserSignModel extends ApiModel {
          }
          $yesterdayAt = $todayAt - 86400;
          $where['sign_in_at'] = array('EGT', $yesterdayAt);
-         $yesterdayRecord = $this->where($where)->find();
+         $yesterdayRecord = $this->where($where)->order('sign_in_at desc')->find();
          $continuousDays = 1;
          if (!empty($yesterdayRecord)) {
              // 更新连续签到天数
