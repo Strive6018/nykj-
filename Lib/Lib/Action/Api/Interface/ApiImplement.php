@@ -2,7 +2,7 @@
 
 interface ApiInterface{
     /**
-     * 验证输入数据的合法性等
+     * 验证输入数据的合法性等ASDASDASDASDASD
      */
     public function validate();
 
