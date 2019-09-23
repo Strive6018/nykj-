@@ -94,3 +94,14 @@ const AllowSep = 1;
 const TimeQuantum = 5;
 //SessionKey
 const TheRefresh = 'TheRefresh';
+
+//-----------用户vip状态---------------
+
+//vip用户
+const UserVipStatusCode = 0;
+//非vip用户
+const UserVipNoStatusCode = 1;
+
+//-----------金币收支类型---------------
+const CoinIncomeType = 0;//收入
+const CoinDisburseType = 1;//支出
