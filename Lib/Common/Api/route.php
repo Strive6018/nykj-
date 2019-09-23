@@ -56,7 +56,8 @@ return [
         'is'=>true
     ],
     //--我邀请的用户列表
-    '/index.php?s=/api-invitedlist-index'=>[
+    '
+    '=>[
         'method'=>'Get',
         'is'=>true
     ],
@@ -64,6 +65,11 @@ return [
     '/index.php?s=/api-modifypassword-index'=>[
         'method'=>'Post',
         'is'=>true
+    ],
+    //--修改用户密码
+    '/index.php?s=/api-forgetpassword-index'=>[
+        'method'=>'Post',
+        'is'=>false
     ],
     //--获取播放记录
     '/index.php?s=/api-record-index'=>[
@@ -73,7 +79,7 @@ return [
     //--可兑换列表
     '/index.php?s=/api-redeemlist-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--获取搜索数据
     '/index.php?s=/api-search-index'=>[
@@ -88,7 +94,7 @@ return [
     //--任务中心
     '/index.php?s=/api-tasklist-index'=>[
         'method'=>'Get',
-        'is'=>false
+        'is'=>true
     ],
     //--获取分类列表数据
     '/index.php?s=/api-typelist-index'=>[
@@ -120,6 +126,16 @@ return [
         'method'=>'Get',
         'is'=>false
     ],
+    //--意见反馈
+    '/index.php?s=/api-feedbackupload-index'=>[
+        'method'=>'Get',
+        'is'=>true
+    ],
+    //--用戶消息--//
+    '/index.php?s=/api-usermessage-index'=>[
+        'method'=>'Get',
+        'is'=>true
+    ],
 
     //------------------------------------------------------------------------------------------
 
@@ -138,8 +154,28 @@ return [
         'method'=>'Get',
         'is'=>false
     ],
-    //--验证码发送
+    //--注册验证码发送
     '/index.php?s=/api-verificationcode-index'=>[
+        'method'=>'Get',
+        'is'=>false
+    ],
+    //--用户修改密码验证码发送
+    '/index.php?s=/api-modifypasswordcode-index'=>[
+        'method'=>'Get',
+        'is'=>true
+    ],
+    //--用户修改密码验证码发送
+    '/index.php?s=/api-forgetpasswordcode-index'=>[
+        'method'=>'Get',
+        'is'=>false
+    ],
+    //--发现页数据--//
+    '/index.php?s=/api-videoviscovery-index'=>[
+        'method'=>'Get',
+        'is'=>false
+    ],
+    //--用户分享完成调用接口--//
+    '/index.php?s=/api-coinreport-index'=>[
         'method'=>'Get',
         'is'=>false
     ],
