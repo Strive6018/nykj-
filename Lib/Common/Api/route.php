@@ -179,4 +179,14 @@ return [
         'method'=>'Get',
         'is'=>false
     ],
+    //--用户修改头像--//
+    '/index.php?s=/api-updateportrait-index'=>[
+        'method'=>'Post',
+        'is'=>true
+    ],
+    //--用户退出登录--//
+    '/index.php?s=/api-Logout-index'=>[
+        'method'=>'Post',
+        'is'=>true
+    ],
 ];
