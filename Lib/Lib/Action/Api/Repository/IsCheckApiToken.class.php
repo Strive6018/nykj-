@@ -3,6 +3,7 @@ class  IsCheckApiToken extends ApiAction
 {
     public function __construct()
     {
+        S(ApiRouteCacheName,NULL);
         if(!S(ApiRouteCacheName)){
             S(ApiRouteCacheName,include(APP_PATH.'./Common/Api/route.php'),ApiRouteCacheTime);
         }
