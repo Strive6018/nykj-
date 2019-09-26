@@ -58,7 +58,6 @@ class ApiAction extends Action
             $this->api_error(ApiCodeOptions[$IsCheckApiToken],$IsCheckApiToken);
         }
     }
-
     /**
      * 接口防刷新
      */
