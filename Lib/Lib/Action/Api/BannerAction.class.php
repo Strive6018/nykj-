@@ -17,7 +17,6 @@ class BannerAction extends ApiAction
      * 验证层
      */
     private function validate(){
-
     }
 
     /**
