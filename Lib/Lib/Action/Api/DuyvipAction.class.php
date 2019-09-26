@@ -22,20 +22,20 @@ class DuyvipAction extends ApiAction
      * 逻辑层
      */
     private function  handle(){
-        $data =UserCoinListType[$this->request['serviceId']];
-        if(!$data){
+        $datass =D("Service")->where(array('service_id'=>$this->request['service_id']))->find();
+        if(!$datass){
             $this->api_error();
         }
         $user_coin = $this->model->where(['user_id'=>$this->user_id])->find();
-        if($user_coin['user_score']<$data['coin']){
+        if($user_coin['user_score']<$datass['coin']){
             $this->api_error("金币不足,快去做任务吧!");
         }
         //金币剩余数量
-        $sv_cion = $user_coin['user_score'] - $data['coin'];
+        $sv_cion = $user_coin['user_score'] - $datass['coin'];
         //当前时间戳
         $current_time = time();
         //兑换月份
-        $moths =  $data['time'];
+        $moths =  $datass['taskDesc'];
         //是否为已经开通了会员
         if($user_coin['end_vip']>$current_time){
             //已经开通过就不用更改开始时间,加上结束时间的时间戳
@@ -68,6 +68,7 @@ class DuyvipAction extends ApiAction
             'vpi'=>1,
             'coin'=>$sv_cion
         ];
+        D("CionDetail")->index($this->user_id,$datass);
         $this->data = $return_data;
 
     }
