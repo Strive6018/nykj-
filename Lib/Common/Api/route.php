@@ -1,5 +1,10 @@
 <?php
 return [
+    //--获取banner图数据--//
+    '/index.php?s=/api-banner-index'=>[
+        'method'=>'Get',
+        'is'=>false
+    ],
     //发现页专辑
     '/index.php?s=/api-albumlist-index'=>[
         'method'=>'Get',
@@ -55,9 +60,8 @@ return [
         'method'=>'Get',
         'is'=>true
     ],
-    //--我邀请的用户列表
-    '
-    '=>[
+    //--我邀请的用户列表--//
+    '/index.php?s=/api-invitedlist-index'=>[
         'method'=>'Get',
         'is'=>true
     ],
@@ -66,13 +70,18 @@ return [
         'method'=>'Post',
         'is'=>true
     ],
-    //--修改用户密码
+    //--用户忘记密码
     '/index.php?s=/api-forgetpassword-index'=>[
         'method'=>'Post',
         'is'=>false
     ],
     //--获取播放记录
     '/index.php?s=/api-record-index'=>[
+        'method'=>'Get',
+        'is'=>true
+    ],
+    //--插入播放记录--//
+    '/index.php?s=/api-postrecord-index'=>[
         'method'=>'Get',
         'is'=>true
     ],
@@ -101,8 +110,13 @@ return [
         'method'=>'Post',
         'is'=>false
     ],
+    //--获取分类列表数据
+    '/index.php?s=/api-User-typelist-index'=>[
+        'method'=>'Post',
+        'is'=>false
+    ],
     //--用户中心
-    '/index.php?s=/api-user-index'=>[
+    '/index.php?s=/api-User-index'=>[
         'method'=>'Get',
         'is'=>true
     ],
@@ -128,7 +142,7 @@ return [
     ],
     //--意见反馈
     '/index.php?s=/api-feedbackupload-index'=>[
-        'method'=>'Get',
+        'method'=>'Post',
         'is'=>true
     ],
     //--用戶消息--//
@@ -151,7 +165,7 @@ return [
     ],
     //--用户注册
     '/index.php?s=/api-userregister-index'=>[
-        'method'=>'Get',
+        'method'=>'Post',
         'is'=>false
     ],
     //--注册验证码发送
@@ -164,7 +178,7 @@ return [
         'method'=>'Get',
         'is'=>true
     ],
-    //--用户修改密码验证码发送
+    //--用户忘记密码验证码发送
     '/index.php?s=/api-forgetpasswordcode-index'=>[
         'method'=>'Get',
         'is'=>false
@@ -188,5 +202,26 @@ return [
     '/index.php?s=/api-Logout-index'=>[
         'method'=>'Post',
         'is'=>true
+    ],
+    //--文件上传--//
+    '/index.php?s=/api-filesupload-index'=>[
+        'method'=>'Post',
+        'is'=>false
+    ],
+    //--视频解析--//
+    '/index.php?s=/api-parseplay-index'=>[
+        'method'=>'Post',
+        'is'=>false
+    ],
+
+    //--用户登录--//
+    '/index.php?s=/api-usersign-index'=>[
+        'method'=>'Post',
+        'is'=>false
+    ],
+    //--剧集列表接口--//
+    '/index.php?s=/api-videoplays-index'=>[
+        'method'=>'Get',
+        'is'=>false
     ],
 ];
