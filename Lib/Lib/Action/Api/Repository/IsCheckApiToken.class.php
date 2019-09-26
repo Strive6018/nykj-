@@ -13,6 +13,10 @@ class  IsCheckApiToken extends ApiAction
      * 验证路由
      */
     private function IsCheckRoute(){
+        //路由强制https
+        if(strtolower($_SERVER['REQUEST_SCHEME']) != 'https'){
+            $this->api_error(ApiCodeOptions[ApiCodeAccessDenied],ApiCodeAccessDenied);
+        }
         //检查提交方式是否正确
         if(!isset(S(ApiRouteCacheName)[__ACTION__]) ||
             strtolower(S(ApiRouteCacheName)[__ACTION__]['method']) != strtolower($_SERVER["REQUEST_METHOD"])){
