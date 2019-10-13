@@ -1,5 +1,6 @@
 <?php
 import('feifeicms.Action.Api.Repository.IsCheckApiToken');
+import('feifeicms.Action.Api.Exception.ApiException');
 require_once (APP_PATH.'./Common/Api/Consts.php');
 class ApiAction extends Action
 {
