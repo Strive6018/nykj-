@@ -1,16 +1,15 @@
 <?php
 
 /**
- * 首页banner
- * Class BannerAction
+ * 用户退出登录
+ * Class UserNameAction
  */
-class BannerAction extends ApiAction
+class LogoutAction extends ApiAction
 {
 
     public function _initialize()
     {
         parent::_initialize();
-        $this->model = D('Slide');
 
     }
     /**
@@ -23,13 +22,7 @@ class BannerAction extends ApiAction
      * 逻辑层
      */
     private function  handle(){
-        $params = [
-            'page_is'=>false,
-            'field'=>'slide_id as id,slide_oid,slide_cid,slide_name,slide_logo,slide_pic,slide_url,slide_content,slide_status'
-        ];
-        $where = 'slide_status=1';
-        //获取banner
-        $this->data['banenr'] = $this->model->ff_select_page($params,$where);
+        $this->data =$this->OutLogin();
     }
 
     private function response(){

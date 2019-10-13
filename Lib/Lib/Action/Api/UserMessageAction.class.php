@@ -1,15 +1,16 @@
 <?php
 
 /**
- * 金币明细接口类
- * Class CoinListAction
+ * 用户消息
+ * Class UserMessageAction
  */
-class CoinListAction extends ApiAction
+class UserMessageAction extends ApiAction
 {
+    protected $user_id = 2;
     public function _initialize()
     {
         parent::_initialize();
-        $this->model = D('CionDetail');
+        $this->model = D('UserMessage');
     }
     /**
      * 验证层
@@ -22,12 +23,18 @@ class CoinListAction extends ApiAction
      * 逻辑层
      */
     private function  handle(){
+        if(!isset($this->request['page']) || empty($this->request['page'])){
+            $this->request['page'] = 1;
+        }
+        if(!isset($this->request['size']) || empty($this->request['size'])){
+            $this->request['size'] = 1;
+        }
         $params['page_id'] = $this->request['page'];
         $params['page_is'] = true;
         $params['limit'] = $this->request['size'];
         $params['page_p'] = $this->request['page'];
         $params['page'] = $this->request['page'];
-        $where = array('user_id '=>$this->user_id);
+        $where = array('userid'=>$this->user_id);
         $this->data = $this->page($where,$this->model,$params);
     }
 
@@ -67,5 +74,4 @@ class CoinListAction extends ApiAction
         }
         return $data;
     }
-
 }

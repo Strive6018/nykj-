@@ -1,34 +1,43 @@
 <?php
 
 /**
- * 金币明细接口类
+ * 用户分享完成调用接口
  * Class CoinListAction
  */
-class CoinListAction extends ApiAction
+class CoinReportAction extends ApiAction
 {
     public function _initialize()
     {
         parent::_initialize();
-        $this->model = D('CionDetail');
     }
     /**
      * 验证层
      */
     private function validate(){
-
+        if(empty($this->request['taskType'])){
+            $this->api_error();
+        }
     }
 
     /**
      * 逻辑层
      */
     private function  handle(){
-        $params['page_id'] = $this->request['page'];
-        $params['page_is'] = true;
-        $params['limit'] = $this->request['size'];
-        $params['page_p'] = $this->request['page'];
-        $params['page'] = $this->request['page'];
-        $where = array('user_id '=>$this->user_id);
-        $this->data = $this->page($where,$this->model,$params);
+        $data =UserCoinListType[$this->request['taskType']];
+        if(!empty($this->user_id)){
+            D("User")->setInc('user_score','user_id='.$this->user_id,$data['coin']);
+            $infs = [
+                'createtime'=>time(),
+                'type'=>$data['type'],
+                'coin'=>$data['coin'],
+                'action'=>$this->request['taskType'],
+                'description'=>$data['taskName'],
+                'user_id'=>$this->user_id
+            ];
+            $this->data = D("CionDetail")->add($infs);
+        }else{
+            $this->success($this->data,'成功');
+        }
     }
 
     private function response(){
